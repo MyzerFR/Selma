@@ -15,7 +15,7 @@ function updateChrono() {
     let totalMinutes = Math.floor(elapsed / (1000 * 60));
 
     document.getElementById("chrono").innerText = 
-        `Nous sommes en couple depuis \n${formatNumber(days)} jours`;
+        `Nous sommes en couple\ndepuis ${formatNumber(days)} jours`;
     document.getElementById("hours").innerText = 
         `Mais aussi : ${formatNumber(totalHours)} heures`;
     document.getElementById("minutes").innerText = 
